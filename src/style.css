@@ -6,6 +6,7 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
+  height: 100vh;
   background: #282D35;
 }
 
@@ -39,25 +40,30 @@ nav {
   margin-left: 26px;
 }
 
+main {
+  padding: 57px 27px;
+  color: white;
+}
+
 .content--title {
-  color: #FFFFFF;
   font-weight: 700;
   font-size: 39px;
-  margin-left: 26px;
   margin-bottom: 46px;
-  margin-top: 57px;
   letter-spacing: -0.05em;
 }
 
 .content--list {
-  color: #FFFFFF;
   font-weight: 400;
   font-size: 19px;
-  margin-left: 51p;
   max-width: 400px
 }
 
-ul > li {
-  margin-bottom: 20px;
+.content--list > li {
+  /* margin-bottom: 20px; */
   padding-block: 10px
+}
+
+.content--list > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB
 }
