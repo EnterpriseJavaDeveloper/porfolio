@@ -39,28 +39,25 @@ nav {
   margin-left: 26px;
 }
 
-/* .content--body {
-  display: flex;
-  background-color: black;
-} */
-
 .content--title {
   color: #FFFFFF;
   font-weight: 700;
-  height: 41px;
+  font-size: 39px;
   margin-left: 26px;
   margin-bottom: 46px;
   margin-top: 57px;
-
+  letter-spacing: -0.05em;
 }
 
 .content--list {
   color: #FFFFFF;
   font-weight: 400;
-  height: 19px;
-  margin-left: 51px
+  font-size: 19px;
+  margin-left: 51p;
+  max-width: 400px
 }
 
 ul > li {
   margin-bottom: 20px;
+  padding-block: 10px
 }
