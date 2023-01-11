@@ -43,6 +43,9 @@ nav {
 main {
   padding: 57px 27px;
   color: white;
+  background-image: url("https://raw.githubusercontent.com/EnterpriseJavaDeveloper/images/main/reactjs-icon%202.png");
+  background-repeat: no-repeat;
+  background-position: right
 }
 
 .content--title {
